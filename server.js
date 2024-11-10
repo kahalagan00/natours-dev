@@ -6,7 +6,7 @@ process.on('uncaughtException', (err) => {
   console.log('UNCAUGHT EXCEPTION! 💥 Shuting down...');
   console.log(err.name);
   console.log(err.message);
-  console.log(err);
+  // console.log(err); // Shows stack trace.
   process.exit(1);
 });
 
