@@ -4,7 +4,8 @@ A modern nature activity booking platform. A place to find your new adventure
 
 > [!NOTE]  
 > This is a practice development project I created while following a course on Back-End development. The original code was written by Jonas Schmedtmann.
-> [!WARNING]  
+
+> [!CAUTION]  
 > Authentication and security might not be fully updated to current standards in 2024 due to the age of the course.
 
 ---
