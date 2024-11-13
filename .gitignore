@@ -1,6 +1,8 @@
 node_modules
 *.env
 
-.vscode/
+
+# Editor directories and files
+.vscode/*
 .prettierrc
 .cache

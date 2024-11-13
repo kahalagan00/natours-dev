@@ -4,11 +4,11 @@
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
+    "build": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
     "dev": "nodemon server.js",
     "start:prod": "NODE_ENV=production nodemon server.js",
     "debug": "node --inspect server.js",
-    "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
-    "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
+    "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
   },
   "author": "Jonas Schmedt",
   "license": "ISC",
